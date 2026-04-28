@@ -3,7 +3,7 @@ is-pinned-card: true
 tags: advisor, new labour
 card-image: img/portraits/MüllerHermann.jpg
 new-page: true
-view-if: muller_advisor = 1
+view-if: keir_advisor = 1
 
 = keir starmer
 
