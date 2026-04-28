@@ -34,11 +34,6 @@ jobs:
       - name: Build with dendrynexus
         run: npx dendrynexus make-html
 
-      - name: Copy images to output
-        run: |
-          mkdir -p out/html/img
-          cp -r img/* out/html/img/ || true
-
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
