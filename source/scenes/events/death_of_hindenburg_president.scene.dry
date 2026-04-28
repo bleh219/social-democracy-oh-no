@@ -59,7 +59,6 @@ Kurt Schumacher is an ambitious rising star in the party, and would be all too w
 - @schumacher_r1: Support Kurt Schumacher.
 - @juchacz_r1: Support Marie Juchacz.
 - @cultural_figure: Support a nonpartisan cultural figure?
-- @ kasier_whilhemlm_r1: long live the king
 
 @eckener_r1
 subtitle: -1 resource - After nominating him, we still have to convince the other parties to support him.
@@ -123,14 +122,6 @@ on-arrival: spd_candidate = "Braun"; resources -= 2; is_unity_candidate = 0
 go-to: r1_menu
 
 We have convinced Otto Braun to run for president once more.
-
-@kasier_whilhemlm_r1 
-subtitle: -2 resources
-choose-if: resources >= 2
-on-arrival: spd_candidate = "whilhelm"; resources -= 2; is_unity_candidate = 0; is_cultural_candidate = 1;
-go-to: r1_menu
-
-the former king long live the king
 
 
 @schumacher_r1
@@ -200,13 +191,6 @@ Carl von Ossietzky is a left-wing journalist who is the publisher of the Weltbü
 
 Ossietzky is extremely reluctant to become a politician, and has been an iconoclastic figure his entire life, criticizing the SPD as being part of the establishment. It is with a sense of irony that he accepts our nomination.
 
-@kasier_whilhemlm_r1 
-subtitle: -2 resources
-choose-if: resources >= 2
-on-arrival: spd_candidate = "whilhelm"; resources -= 2; is_unity_candidate = 0; is_cultural_candidate = 1;
-go-to: r1_menu
-
-the former king long live the king
 
 @r1_menu
 view-if: round = 0
